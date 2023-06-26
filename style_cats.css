@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0; 
+} 
+
+
+
+/*МЕНЮ*/
+.headd{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    right:0; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 0px 4px 20px rgba(217,229,255,0.7); 
+    padding: 0 8%;
+    width: auto; 
+    height: 90px;
+    background-color: white;
+
+ }
+.navbar ul li{
+    list-style: none; 
+    position: relative;
+    float:left; 
+} 
+.navbar ul li button{
+    padding: 25px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+}
+.navbar ul li button:hover{
+    color: #247FFF;
+}
+.Logo{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+/*станица ВХОД*/
+.entrance{
+    
+    height: 100vh; 
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    box-sizing: border-box;/*свойства width и height буду включать в себя padding: и border, но не margin:  */
+    height: 45px;
+    width: 100%;
+    font-size: 14px;
+    color:#3B5983;
+    border: 2px solid #E9F2FF;
+    border-radius: 5px;
+    padding: 10px;
+}
+.form-title{
+    color:#3c72bd;
+    font-weight: 500;
+    font-size:20px;
+    
+}
+.button{
+    display:block;
+    height: 35px;
+    background: #247FFF;
+    border-radius: 5px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    width: 355px;
+    height: 45px;
+    left: 542;
+    top: 586px;    
+}
+.entrance-form-container{
+    
+    max-width: 415px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(217,229,255,0.7);
+    border-radius: 20px;
+    padding: 38px 30px;
+}
+.form-title{
+    margin-bottom: 13px;
+}
+.form-field{
+    margin: 13px 0;
+}
+
+.button:hover{
+    background-color: #0D6CF2 ;
+}
+
+
+  
+
+
+/*станица О НАС */
+.foto-text-container{
+    display: flex;
+    flex-direction:column;
+
+}
+
+
+ div.foto-container{
+    display:flex ;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    flex-wrap: wrap;
+}
+
+
+
+ p.text-cat{
+    font-size: 22px;
+    line-height: 30px;
+    height:50%; 
+    width:60%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-top: 1%;
+    
+}
+
+.foto-cat{
+    margin: 2% 2%;
+    width: 400px;
+    height: 300px;
+}
+
+.foto-text-container-c2{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+p.text-cat-c2{
+   
+    font-size: 22px;
+    line-height: 30px;
+    float: left;
+    height:25%; 
+    width:35%;
+    text-align: justify;
+}
+
+
+
+/*страница ТАБЛИЦА*/
+.table {
+	
+	border: none;
+	margin-top: 70vh;
+    border-collapse: collapse;
+    width: auto;
+    height: 70%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+}
+.table thead th {
+	padding: 10px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #444441;
+	border-top: 2px solid #716561;
+	border-bottom: 2px solid #716561;
+}
+.table tbody td {
+	padding: 10px;
+	font-size: 20px;
+	line-height: 20px;
+	color: #444441;
+	border-top: 1px solid #716561;
+    border-collapse: collapse;
+}
+tr:hover b{
+    color:#0D6CF2;
+}
+
+
+.video_text{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 500;
+}
+.videos{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    top: 20%; 
+    margin: 20px -5px;
+    flex-wrap: wrap;
+}
+.video {
+    
+    margin: 3% 3%;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 15% 10%;
+    display: flex;
+    flex-direction:row;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.foto-card{
+    padding: 40px 0 40px 100px;
+    width:350px;
+    height:400px;
+}
+.card-contanier{
+    list-style: none; 
+    padding-left:3% ;
+}
+.text-card{
+    font-size: 19px;
+    line-height: 30px;
+    height:40%; 
+    width:60%;
+    text-align: justify;
+    padding-left: 3%;
+    margin: 3% 3% 3% 9%;
+    flex-wrap: wrap;
+}
+b.name-cat{
+    font-size: 30px;
+}
+.information-cat{
+    list-style: none; 
+    font-size: 19px;
+    line-height: 35px;
+    display: flex;
+    flex-direction:row;
+    margin: 5% 0% 0% 5% ;
+    padding: 5% 0% 0% 5%;
+    flex-wrap: wrap;
+    
+
+}
+#sex{
+    list-style: none; 
+    padding-left: 7%;  
+    flex-wrap: wrap;
+}
+
+.element {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+.icon2{
+    right: 0;
+    top: 0;
+}
+.icon3{
+    left: 0;
+    bottom: 0;
+}
+.icon4{
+    left: 0;
+    top: 0;
+}
+
+ .object{
+    display: flex;
+    width: 100%;
+    height: 100%;
+} 
+
+
+@media screen and (max-width: 1150px){
+
+    .video_text{
+        font-size: 23px;
+        margin-top: 100px;
+        
+    }
+    .video {
+        width: 300px;
+        height: 200px;
+        margin: 5% 3%;
+      }
+    .text-card{
+        line-height: 30px;
+    }  
+
+    b.name-cat{
+        font-size: 25px;
+    }
+   
+    #sex{
+        padding-left: 5%;  
+    }
+}
+@media screen and (max-width: 1120px){
+    .foto-card{
+        padding: 40px 0px 0px 100px;
+    }
+    .information-cat{
+        padding: 3% 0% 3% 5%;
+    }
+
+    #sex{
+        padding-left: 0%;  
+    }
+}
+  @media screen and (max-width: 1048px){
+    .headd{
+        height: 60px;
+    }
+    .navbar ul li button{
+        padding: 10px;
+        font-size: 18px;
+        
+    }
+    .Logo{
+        width: 45px;
+        height: 50px;
+    }
+    p.text-cat{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 4%;
+    }
+    p.text-cat-c2{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 4%;
+        height:30%; 
+        width:40%;
+    }
+    .foto-cat{
+        width: 300px;
+        height: 250px;
+    } 
+    
+    .table thead th {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .table tbody td {
+        padding: 3px;
+        font-size: 15px;
+    }  
+    
+    .video {
+        margin: 5% 3%;
+      }
+    .foto-card{
+        padding: 50px 0 0 70px;
+    }
+    .text-card{
+        margin: 3% 0 3% 5%;
+    }  
+
+    .information-cat{
+        margin: 8% 0%;
+    }
+    #sex{
+        padding-left: 0%;  
+    }
+}
+@media screen and (max-width: 887px){
+    .entrance{
+        height: 70vh; 
+    }
+    .text-card{
+        margin: 3% 3% 3% 5%;
+    }  
+    .information-cat{
+        margin: 15% 0%;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 851px){
+    .foto-card{
+        padding: 40px 0 30px 70px;
+        width:300px;
+        height:350px;
+    }
+   
+    .text-card{
+        line-height:27px ;
+        margin: 3% 3% 3% 5%;
+    }  
+    .information-cat{
+        margin: 10% 0%;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 830px){
+   
+    .navbar ul li button{
+        padding: 9px;
+        font-size: 16px;
+        
+    }
+    .foto-card{
+        width:250px;
+        height:300px;
+    }
+    b.name-cat{
+        font-size: 20px;
+    }
+    .text-card{
+        font-size: 16px;
+        line-height:25px;
+        margin: 3% 3% 3% 5%;
+    }  
+    .information-cat{
+        font-size: 16px;
+        margin: 10% 0%;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 700px){
+   
+    .navbar ul li button{
+        padding: 9px;
+        font-size: 13px;
+        
+    }
+    b.name-cat{
+        font-size: 18px;
+    }
+    .text-card{
+        font-size: 13px;
+        line-height:20px;
+    }  
+    .information-cat{
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 628px){
+    .entrance{
+        height: 70vh; 
+    } 
+    b.name-cat{
+        font-size: 15px;
+    }
+    .text-card{
+        font-size: 12px;
+        line-height:18px;
+    }  
+    .information-cat{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 580px){
+    .entrance{
+        height: 60vh; 
+    } 
+    .headd{
+        height: 45px;
+    }
+    .navbar ul li button{
+        padding: 7px;
+        font-size: 10px;
+        
+    }
+    .Logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .entrance{
+        height: 70vh;
+    }
+    .foto-cat{
+        width: 150px;
+        height: 100px;
+    }
+    p.text-cat{
+        font-size: 11px;
+        line-height: 16px;
+        margin-top: 4%;
+    }
+    p.text-cat-c2{
+        font-size: 11px;
+        line-height: 16px;
+        margin: 4% 4%;
+        height:50%; 
+        width:60%;
+    }
+    .table {
+        margin: 25% 5%;
+    }
+    
+    .table thead th {
+        padding: 5px;
+        font-size: 12px;
+      
+       
+    }
+    .table tbody td {
+        padding: 3px;
+        font-size: 10px;
+    }  
+    .video_text{
+        font-size: 20px;
+        margin-top: 80px;
+        
+    }
+    .text-card{
+        font-size: 11px;
+        line-height: 15px;
+        margin: 15% 10% 5% 5%; 
+       
+
+    }
+
+    .information-cat{
+        font-size: 11px;
+        line-height: 15px;
+        margin: 15% 0%;
+    
+    }
+    #sex{
+        padding-left: 0%;  
+    }
+    
+}
+
+@media screen and (max-width: 540px){
+    .entrance{
+        height: 60vh; 
+    } 
+     .foto-card{
+        padding: 70px 0px 0px 60px; 
+        width: 200px;
+        height: 250px;
+    } 
+    b.name-cat{
+        font-size: 13px;
+    }
+    .text-card{
+        font-size: 11px;
+        line-height:16px;
+    }  
+    .information-cat{
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+    .entrance{
+        height: 60vh; 
+    } 
+    .navbar ul li button{
+        padding: 7px;
+        font-size: 9px;
+        
+    }
+    .foto-card{
+       padding: 70px 0px 0px 60px; 
+       width: 200px;
+       height: 250px;
+   } 
+   b.name-cat{
+       font-size: 13px;
+   }
+   .text-card{
+       font-size: 9px;
+       line-height:14px;
+   }  
+   .information-cat{
+       font-size: 9px;
+       line-height: 14px;
+   }
+
+}
+
+@media screen and (max-width: 440px) {
+
+
+     .entrance{
+        height: 60vh; 
+    } 
+    .navbar ul li button{
+        font-size: 8px;
+        
+    }
+    .foto-card{
+        padding: 30px 0 20px 50px;
+        width: 170px;
+        height: 230px; 
+    }
+
+    .text-card{
+        font-size: 9px;
+        line-height: 11px;
+    
+    }
+    .information-cat{
+        font-size: 10px;
+        line-height: 12px;
+        margin: 20% 0%;
+    }
+    b.name-cat{
+        font-size: 12px;
+    }
+    .icon1, .icon2, .icon3, .icon4{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 395px){
+
+    .navbar ul li button{
+        padding: 5px;
+        font-size: 8px;
+        
+    }
+    .foto-card{
+        padding: 30px 0 40px 50px;
+        width: 160px;
+        height: 210px;
+    }
+
+    .text-card{
+        font-size: 9px;
+        line-height: 9px;
+        margin: 3% 3% 3% 5%;
+    
+    }
+    .information-cat{
+        font-size: 9px;
+        line-height: 10px;
+        margin: 15% 0%;
+    }
+   
+
+}
